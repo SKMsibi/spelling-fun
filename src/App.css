@@ -84,7 +84,6 @@
   grid-auto-columns: repeat(3, 2%);
   grid-gap: 2%;
   padding-left: 30%;
-  background-color: rgb(146, 6, 6);
 }
 
 h2 {
