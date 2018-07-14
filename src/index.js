@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import StartPage from './components/startpage';
 import SpellIt from './components/spell-it';
+import WriteIt from './components/write-it';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
             <Route exact path="/" component={App} />
             <Route path="/startpage" component={StartPage} />
             <Route path="/spell" component={SpellIt} />
+            <Route path="/write" component={WriteIt} />
         </div>
     </Router>
     , document.getElementById('root'));

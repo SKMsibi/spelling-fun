@@ -18,8 +18,8 @@ class WriteIt extends Component {
                 </header>
 
                 <div className="spell-it">
-                    <h3 className="word">your word   : <u>{this.state.word}</u></h3>
-                    <button className="btn btn-primary" id="record-btn">record</button>
+                    <h3 className="word">your word   : <input type="text" name="word" /></h3>
+                    <button className="btn btn-primary" id="record-btn">Check word</button>
                     <Link to="/startpage"><button className="btn btn-primary" id="back-btn">back</button></Link>
                 </div>
             </div>

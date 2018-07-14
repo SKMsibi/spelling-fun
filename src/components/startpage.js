@@ -11,7 +11,7 @@ class StartPage extends Component {
                 </header>
                 <div className="grid-buttons">
                     <Link to="/spell"> <button className="btn btn-primary" id="spell-btn"> Spell It</button></Link>
-                    <button className="btn btn-warning" id="write-btn">Write it </button>
+                    <Link to="/write"><button className="btn btn-warning" id="write-btn">Write it </button></Link>
                     <Link to="/quit"><button className="btn btn-danger" id="quit-btn">Quit</button></Link>
                 </div>
             </div>
